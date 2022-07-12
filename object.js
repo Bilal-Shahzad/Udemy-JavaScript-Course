@@ -36,5 +36,23 @@ pizza.cheese = 'mozzarella';
 pizza.toppings = 'cheese, mushrooms, pineapple';
 "cheese, pepporoni, olives, mushroom "
 
-pizza
-Object {crust: "wheat", sauce: "marinara" . cheese : "mozzarella", toppings : "cheese, mushrroms, pineapple" }
+pizzas
+Object { crust: "wheat", sauce: "marinara" . cheese : "mozzarella", toppings : "cheese, mushrroms, pineapple" }
+
+
+
+//bracket notation, use boolean, string, and number 
+
+var cup = {};
+
+cup ['insulated'] = true;
+true 
+
+cup ['liquid'] = 'water';
+"water"
+
+cup ['oz'] = 16;
+16
+
+cup
+Object {insulated: true, liquid: "water" , oz: 16}
