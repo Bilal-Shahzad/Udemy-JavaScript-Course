@@ -1,7 +1,7 @@
 // (console.log()) value of the property name in the given object:
 let student = {
-    name:"Max",
-    age: 27
+    name:"Bilal",
+    age: 20
 };
 console.log (student.name);
 
